@@ -9,12 +9,33 @@
 <form action="" method="post">
     <p>
         <label for="firstname">Họ tên</label>
-        <input type="text" id="firstname" name="firstname" placeholder="Nhập họ tên">
+        <input id="firstname" name="firstname" placeholder="Nhập họ tên" readonly type="text">
+        <!--readonly chỉ đọc-->
     </p>
 
     <p>
         <label for="location">Nơi sinh</label>
-        <input type="text" id="location" name="location" placeholder="Nhập nơi sinh">
+        <input id="location" name="location" placeholder="Nhập nơi sinh" required type="text">
+        <!--required bắt buộc phải nhập-->
+    </p>
+
+    <p>
+        <label for="location2">Nơi sinh</label>
+        <input id="location2" name="location2" placeholder="Nhập nơi ở" required type="text">
+    </p>
+
+    <p>
+        <label for="color">Màu da</label>
+        <input id="color" name="color" type="color">
+    </p>
+
+    <p>
+        <label for="day">Nơi sinh</label>
+        <input id="day" name="day" type="date">
+    </p>
+
+    <p>
+        <input name="submit" type="submit" value="Gửi dữ liệu">
     </p>
 
 </form>
