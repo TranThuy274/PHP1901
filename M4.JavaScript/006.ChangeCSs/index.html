@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Thay đổi CSS bằng JS</h1>
+
+<div id="target" style="font-size: 18px">
+    Changing the style of an HTML element, is a variant of changing an HTML attribute:
+</div>
+
+<div style="margin: 30px">
+    <button onclick="var current_font_size = parseInt(document.getElementById('target').style.fontSize); current_font_size = current_font_size + 2; var current_font_size_text = current_font_size">Tăng font</button>
+    <button onclick="var current_font_size = parseInt(document.getElementById('target').style.fontSize); current_font_size = current_font_size + 2; var current_font_size_text = current_font_size">Giảm font</button>
+
+</div>
+<div>
+    <p style="color: red">document.getElementById().style.fontSize : lấy font size của id target = 18px</p>
+    <br>current_font_size = current_font_size + 2;
+
+</div>
+</body>
+</html>
