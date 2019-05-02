@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Function JS</h1>
+<div>
+    <p>Hàm trong js là khối các câu lệnh được tạo ra để thực hiện một nhiệm vụ nào đó</p>
+    <p>hàm tỏng js được chạy khi mà nó được gọi</p>
+    <p>Cú pháp hàm: function ten__ham(arg1, arg2)</p>
+    <p>gọi hàm: ten_ham(x, y)</p>
+</div>
+
+
+<script type="text/javascript">
+    function chuvihinhtron(duongkinh) {
+        return duongkinh*3.14;
+    }
+
+    var x = 5;
+    var ketqua = chuvihinhtron(x);
+    console.log('chu vi hinh tron: ' + ketqua);
+
+    function tinhdiemtrungbinh(diemtoan, diemly, diemhoa) {
+        return (diemtoan + diemly + diemhoa) / 3;
+    }
+
+    var a = 6;
+    var b = 4;
+    var c = 7;
+
+    //gọi hàm và truyền tham số
+
+    var ketquadiem = tinhdiemtrungbinh(a, b, c);
+    console.log('diem tb: ' + ketquadiem);
+
+</script>
+</body>
+</html>

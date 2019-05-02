@@ -18,6 +18,52 @@
     var student2 = {};
     student2.name = "Nguyễn tuấn anh";
     student2.age = 12;
+
+
+    //kiểu dữ liệu boolean
+    var gender1 = true;
+    var gender2 = false;
+
+    //kieu dữ liệu dạng mảng
+
+    var list_name = ["nguyen van a", "nguyen van b", 'nguyen van c'];
+    var list_age = [22, 21, 23];
+    var list_student = [student1, student2];
+    //mảng bao gồm nhieeyf phần tử có đánh số thứ tự mà thuật ngữ gọi là key
+    //key trong mantg của js và php thì bắt đầu từ 0
+    //mỗi phần tử trong mảng được phân tách bởi dấu phẩy, và có 1 key duy nhất
+
+    //truy cập phần tử của mảng
+    console.log('list_name[2]:' + list_name[2]);
+    console.log('list_age[0]:' + list_age[0]);
+    console.log('list_student[1]:' + list_student[1].name);
+    console.log('list_student[1]:' + list_student[1].age);
+
+    //kiểu undefined
+    var a; //undefined xuất hiện khi mà chúng ta không cần giá chị của biến
+    //undefined có nghĩa là không xác định
+
+
+    //lệnh typeof
+    //trả về kiểu dữ liệu của biến
+
+    console.log('typeof a: ' + typeof a);
+    console.log('typeof name: ' + typeof name);
+    console.log('typeof age: ' + typeof age);
+    console.log('typeof gender1: ' + typeof gender1);
+    console.log('typeof student1: ' + typeof student1);
+    console.log('typeof list_name: ' + typeof list_name);
+
+    //dạng rỗng
+    var name3 = "";
+
+
+    //dạng null(không có gì cả) khác với undefined( không được khai báo
+
+    var data = null;
+    console.log(typeof data);
+
+
 </script>
 </body>
 </html>
